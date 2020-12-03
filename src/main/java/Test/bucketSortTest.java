@@ -14,8 +14,8 @@ public class bucketSortTest {
         int maxThreads = Runtime.getRuntime().availableProcessors();
         final int ARRAY_SIZE = 2_000_000;
 
-        BucketSortSolver sorter = new BucketSortSolver();
-        List<Long> start = sorter.sequential(maxThreads, ARRAY_SIZE);
+        BucketSortSolver sorter = new BucketSortSolver(maxThreads, ARRAY_SIZE);
+        List<Long> start = sorter.sequential();
 
         // assert statements
         for (int i = 1; i < start.size(); i++) {
