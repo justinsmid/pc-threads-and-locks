@@ -51,4 +51,36 @@ public class bucketSortTest {
         System.out.println(difference);
     }
 
+    /**
+     * T
+     */
+    @Test
+    public void methodTest() {
+        int maxThreads = Runtime.getRuntime().availableProcessors();
+        final int ARRAY_SIZE = 2_000_000;
+        BucketSortSolver bucket = new BucketSortSolver(maxThreads, ARRAY_SIZE);
+
+        long parallelBefore = System.currentTimeMillis();
+        bucket.parallel();
+        long parallelAfter = System.currentTimeMillis();
+        System.out.println("\nDifference in time before and after sort");
+        System.out.println(parallelAfter - parallelBefore);
+        System.out.println("\n");
+
+        long sequentialBefore = System.currentTimeMillis();
+        bucket.sequential();
+        long sequentialAfter = System.currentTimeMillis();
+        System.out.println("\nDifference in time before and after sort");
+        System.out.println(sequentialAfter - sequentialBefore);
+        System.out.println("\n");
+
+        System.out.println("\nHow much faster sequential is before");
+        System.out.println(sequentialBefore - parallelBefore);
+        System.out.println("\n");
+
+        System.out.println("\nHow much faster sequential is after");
+        System.out.println(sequentialAfter - parallelAfter);
+        System.out.println("\n");
+
+    }
 }
