@@ -1,0 +1,10 @@
+
+]
+java:S1854";Remove this useless assignment to local variable "buckets".(èá’‡ùÿÿÿÿ8‡®ÍÂâ.
+F
+java:S1481")Remove this unused "list" local variable.(´©Ï×8ÁßÕÂâ.
+U
+java:S1854"8Remove this useless assignment to local variable "list".(´©Ï×8ÁßÕÂâ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¿€ú÷8®ñ¾Ââ.
+N
+java:S1481",Remove this unused "buckets" local variable.(èá’‡ùÿÿÿÿ8â°ÖÂâ.
