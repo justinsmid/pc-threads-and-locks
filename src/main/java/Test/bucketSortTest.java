@@ -11,46 +11,20 @@ import java.util.List;
 public class bucketSortTest {
     private final int maxThreads = Runtime.getRuntime().availableProcessors();
 
-    @Test
-    public void bucketSortHasBeenSorted() {
-        final int ARRAY_SIZE = 2_000_000;
-
-        BucketSortSolver sorter = new BucketSortSolver(maxThreads, ARRAY_SIZE);
-        List<Long> sequentiallySortedList = sorter.sequential();
-        List<Long> parallelSortedList = sorter.parallel();
-
-        assertTrue(isSorted(sequentiallySortedList));
-        assertTrue(isSorted(parallelSortedList));
-    }
-
-    @Test
-    public void compareTimes() {
-        final int ARRAY_SIZE = 2_000_000;
-
-        BucketSortSolver sorter = new BucketSortSolver(maxThreads, ARRAY_SIZE);
-
-        long timeTaken = measureTime(sorter::sequential);
-
-        System.out.printf("Sequential sorting took %d ms\n", timeTaken);
-    }
-
     /**
-     * T
+     * Runs the algorithm sequentially and in parallel and checks whether both return a correctly sorted list
      */
     @Test
-    public void methodTest() {
+    public void listHasBeenSorted() {
         final int ARRAY_SIZE = 2_000_000;
+
         BucketSortSolver sorter = new BucketSortSolver(maxThreads, ARRAY_SIZE);
 
-        long parallelTimeTaken = measureTime(sorter::parallel);
+        List<Long> sequentiallySortedList = sorter.sequential();
+        assertTrue(isSorted(sequentiallySortedList));
 
-        System.out.printf("Parallel sorting took %d ms\n", parallelTimeTaken);
-
-        long sequentialTimeTaken = measureTime(sorter::sequential);
-        System.out.printf("Sequential sorting took %d ms\n", sequentialTimeTaken);
-
-        long difference = Math.abs(parallelTimeTaken - sequentialTimeTaken);
-        System.out.printf("Difference between parallel and sequential time taken: %d ms\n", difference);
+        List<Long> parallelSortedList = sorter.parallel();
+        assertTrue(isSorted(parallelSortedList));
     }
 
     private boolean isSorted(List<Long> list) {
@@ -71,4 +45,61 @@ public class bucketSortTest {
 
         return after - before;
     }
+
+    private void printTimeTaken(int nThreads, int nElements) {
+        BucketSortSolver sorter = new BucketSortSolver(nThreads,  nElements);
+
+        long parallelTimeTaken = measureTime(sorter::parallel);
+
+        System.out.printf("Parallel sorting took %d ms\n", parallelTimeTaken);
+
+        long sequentialTimeTaken = measureTime(sorter::sequential);
+        System.out.printf("Sequential sorting took %d ms\n", sequentialTimeTaken);
+
+        String faster = parallelTimeTaken > sequentialTimeTaken ? "sequential" : "parallel";
+        long difference = Math.abs(parallelTimeTaken - sequentialTimeTaken);
+        System.out.printf("%s was %d ms faster\n", faster, difference);
+    }
+
+    /**
+     * Prints the time it takes to sort an array of 2million elements in parallel and sequentially
+     */
+    @Test
+    public void printTime() {
+        final int ARRAY_SIZE = 2_000_000;
+
+        printTimeTaken(maxThreads, ARRAY_SIZE);
+    }
+
+    //////////////////////////////////////////  DATA COLLECTION  ///////////////////////////////////////////////////////
+    ///  Underneath follow the tests we ran to gather the data shown in the graphs.                                    /
+    ///  Running them as-is on a sub-par computer may result in lag or a crash due to large numbers and long runtime   /
+    ///  We recommend adjusting their values accordingly beforehand if you wish to run them yourself.                  /
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /**
+     * Prints the times it takes for the algorithms to run both in parallel and sequentially with varying numbers to threads used.
+     */
+//    @Test
+//    public void nThreadsTiming() {
+//        int[] nElementsArray = new int[]{ 100_000, 1_000_000, 5_000_000, 10_000_000, 25_000_000 };
+//
+//        for (int nElements : nElementsArray) {
+//            for (int threads = 1; threads <= maxThreads; threads++) {
+//                System.out.println();
+//                System.out.printf("%d thread(s), %d elements:\n", threads, nElements);
+//                printTimeTaken(threads, nElements);
+//            }
+//        }
+//    }
+
+//    @Test
+//    public void methodTest() {
+//        int nElements = 10_000;
+//
+//        for (int i = 0; i < 100; i++) {
+//            int test = (i * i) * nElements;
+//            System.out.println("i: " + i + " Test: " + test);
+//            printTimeTaken(maxThreads, test);
+//        }
+//    }
 }
