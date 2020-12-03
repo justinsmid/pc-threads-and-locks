@@ -32,7 +32,7 @@ public class Main {
         // Distribute elements into their respective bucket
         for (int i = 0; i < nElements; i++) {
             Long element = list.get(i);
-            int bucketIdx = (int) ((element * nElements) % nBuckets);
+            int bucketIdx = (int) ((element * nBuckets) % nBuckets);
             List<Long> bucket = buckets.get(bucketIdx);
             bucket.add(element);
         }
@@ -56,12 +56,7 @@ public class Main {
         buckets.forEach(sortedList::addAll);
 
         for (int i = 0; i < sortedList.size() - 1; i++) {
-//            assert (sortedList.get(i) <= sortedList.get(i + 1));
-            if (!(sortedList.get(i) <= sortedList.get(i + 1))) {
-                long a = sortedList.get(i);
-                long b = sortedList.get(i + 1);
-                System.out.println("abc");
-            }
+            assert (sortedList.get(i) <= sortedList.get(i + 1));
         }
 
         System.out.println("Done");
