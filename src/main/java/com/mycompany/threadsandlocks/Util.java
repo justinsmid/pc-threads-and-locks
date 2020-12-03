@@ -14,4 +14,8 @@ public class Util {
             }
         });
     }
+
+    public interface Function {
+        public void execute();
+    }
 }

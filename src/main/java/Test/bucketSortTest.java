@@ -1,54 +1,37 @@
 package Test;
+
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import com.mycompany.threadsandlocks.BucketSortSolver;
+import com.mycompany.threadsandlocks.Util;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
 public class bucketSortTest {
+    private final int maxThreads = Runtime.getRuntime().availableProcessors();
 
     @Test
-    public void bucketSortHasBeenFiltered() {
-        int maxThreads = Runtime.getRuntime().availableProcessors();
+    public void bucketSortHasBeenSorted() {
         final int ARRAY_SIZE = 2_000_000;
 
         BucketSortSolver sorter = new BucketSortSolver(maxThreads, ARRAY_SIZE);
-        List<Long> start = sorter.sequential();
+        List<Long> sequentiallySortedList = sorter.sequential();
+        List<Long> parallelSortedList = sorter.parallel();
 
-        // assert statements
-        for (int i = 1; i < start.size(); i++) {
-           Long a = start.get(i);
-           Long b = start.get(i-1);
-            assertTrue(a >= b);
-        }
+        assertTrue(isSorted(sequentiallySortedList));
+        assertTrue(isSorted(parallelSortedList));
     }
 
     @Test
     public void compareTimes() {
-        int maxThreads = Runtime.getRuntime().availableProcessors();
         final int ARRAY_SIZE = 2_000_000;
 
-        long before = System.currentTimeMillis();
         BucketSortSolver sorter = new BucketSortSolver(maxThreads, ARRAY_SIZE);
-        List<Long> start = sorter.sequential();
 
-        System.out.println(before);
+        long timeTaken = measureTime(sorter::sequential);
 
-        // assert statements
-        for (int i = 1; i < start.size(); i++) {
-            Long a = start.get(i);
-            Long b = start.get(i-1);
-            assertTrue(a >= b);
-        }
-
-
-        long after = System.currentTimeMillis();
-        System.out.println(after);
-
-        long difference = after - before;
-
-        System.out.println(difference);
+        System.out.printf("Sequential sorting took %d ms\n", timeTaken);
     }
 
     /**
@@ -56,31 +39,36 @@ public class bucketSortTest {
      */
     @Test
     public void methodTest() {
-        int maxThreads = Runtime.getRuntime().availableProcessors();
         final int ARRAY_SIZE = 2_000_000;
-        BucketSortSolver bucket = new BucketSortSolver(maxThreads, ARRAY_SIZE);
+        BucketSortSolver sorter = new BucketSortSolver(maxThreads, ARRAY_SIZE);
 
-        long parallelBefore = System.currentTimeMillis();
-        bucket.parallel();
-        long parallelAfter = System.currentTimeMillis();
-        System.out.println("\nDifference in time before and after sort");
-        System.out.println(parallelAfter - parallelBefore);
-        System.out.println("\n");
+        long parallelTimeTaken = measureTime(sorter::parallel);
 
-        long sequentialBefore = System.currentTimeMillis();
-        bucket.sequential();
-        long sequentialAfter = System.currentTimeMillis();
-        System.out.println("\nDifference in time before and after sort");
-        System.out.println(sequentialAfter - sequentialBefore);
-        System.out.println("\n");
+        System.out.printf("Parallel sorting took %d ms\n", parallelTimeTaken);
 
-        System.out.println("\nHow much faster sequential is before");
-        System.out.println(sequentialBefore - parallelBefore);
-        System.out.println("\n");
+        long sequentialTimeTaken = measureTime(sorter::sequential);
+        System.out.printf("Sequential sorting took %d ms\n", sequentialTimeTaken);
 
-        System.out.println("\nHow much faster sequential is after");
-        System.out.println(sequentialAfter - parallelAfter);
-        System.out.println("\n");
+        long difference = Math.abs(parallelTimeTaken - sequentialTimeTaken);
+        System.out.printf("Difference between parallel and sequential time taken: %d ms\n", difference);
+    }
 
+    private boolean isSorted(List<Long> list) {
+        for (int i = 1; i < list.size(); i++) {
+            Long a = list.get(i - 1);
+            Long b = list.get(i);
+            if (a > b) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private long measureTime(Util.Function function) {
+        long before = System.currentTimeMillis();
+        function.execute();
+        long after = System.currentTimeMillis();
+
+        return after - before;
     }
 }
