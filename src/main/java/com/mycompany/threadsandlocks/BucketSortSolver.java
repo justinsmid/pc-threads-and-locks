@@ -22,14 +22,11 @@ public class BucketSortSolver {
     }
 
     public List<Long> parallel() {
-        System.out.printf("Starting algorithm in parallel with %d threads and %d elements to sort...\n", nThreads, nElements);
-
         List<Thread> threads = new ArrayList<>(nThreads);
 
         int nBuckets = (int) Math.sqrt(nElements);
 
         // Create buckets
-        System.out.printf("Creating %d buckets...\n", nBuckets);
         this.setBuckets(Collections.synchronizedList(new ArrayList<>(nBuckets)));
 
         int nAvailableBuckets = nBuckets;
@@ -98,18 +95,13 @@ public class BucketSortSolver {
         List<Long> sortedList = Collections.synchronizedList(new ArrayList<>(nElements));
         buckets.forEach(sortedList::addAll);
 
-        System.out.println("Done");
-
         return sortedList;
     }
 
     public List<Long> sequential() {
-        System.out.printf("Starting algorithm sequentially with %d threads and %d elements to sort...\n", nThreads, nElements);
-
         int nBuckets = (int) Math.sqrt(nElements);
 
         // Create buckets
-        System.out.printf("Creating %d buckets...\n", nBuckets);
         List<List<Long>> buckets = new ArrayList<>(nBuckets);
         for (int i = 0; i < nBuckets; i++) {
             buckets.add(new ArrayList<>());
@@ -142,8 +134,6 @@ public class BucketSortSolver {
         // Join buckets together into the final sorted list
         List<Long> sortedList = new ArrayList<>(nElements);
         buckets.forEach(sortedList::addAll);
-
-        System.out.println("Done");
 
         return sortedList;
     }
