@@ -22,6 +22,7 @@ public class BucketSortSolver {
     }
 
     public List<Long> parallel() {
+        this.setMax(Integer.MIN_VALUE);
         List<Thread> threads = new ArrayList<>(nThreads);
 
         int nBuckets = (int) Math.sqrt(nElements);
@@ -99,6 +100,7 @@ public class BucketSortSolver {
     }
 
     public List<Long> sequential() {
+        this.setMax(Integer.MIN_VALUE);
         int nBuckets = (int) Math.sqrt(nElements);
 
         // Create buckets
