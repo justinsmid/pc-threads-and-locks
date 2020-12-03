@@ -12,10 +12,9 @@ public class bucketSortTest {
 
     @Test
     public void bucketSortHasBeenFiltered() {
-
         int maxThreads = Runtime.getRuntime().availableProcessors();
         final int ARRAY_SIZE = 2_000_000;
-        List<Long> start = Main.start(maxThreads, ARRAY_SIZE);
+        List<Long> start = Main.sequential(maxThreads, ARRAY_SIZE);
 
         // assert statements
         for (int i = 1; i < start.size(); i++) {
@@ -23,7 +22,5 @@ public class bucketSortTest {
            Long b = start.get(i-1);
             assertTrue(a >= b);
         }
-
-
     }
 }
