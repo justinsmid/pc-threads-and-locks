@@ -2,10 +2,9 @@ package Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import com.mycompany.threadsandlocks.Main;
+import com.mycompany.threadsandlocks.BucketSortSolver;
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class bucketSortTest {
@@ -14,7 +13,9 @@ public class bucketSortTest {
     public void bucketSortHasBeenFiltered() {
         int maxThreads = Runtime.getRuntime().availableProcessors();
         final int ARRAY_SIZE = 2_000_000;
-        List<Long> start = Main.sequential(maxThreads, ARRAY_SIZE);
+
+        BucketSortSolver sorter = new BucketSortSolver();
+        List<Long> start = sorter.sequential(maxThreads, ARRAY_SIZE);
 
         // assert statements
         for (int i = 1; i < start.size(); i++) {
