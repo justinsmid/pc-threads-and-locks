@@ -1,0 +1,400 @@
+i: 0, Number of elements: 0
+Parallel sorting took 8 ms
+Sequential sorting took 0 ms
+sequential was 8 ms faster
+i: 1, Number of elements: 10000
+Parallel sorting took 11 ms
+Sequential sorting took 1 ms
+sequential was 10 ms faster
+i: 2, Number of elements: 40000
+Parallel sorting took 22 ms
+Sequential sorting took 5 ms
+sequential was 17 ms faster
+i: 3, Number of elements: 90000
+Parallel sorting took 49 ms
+Sequential sorting took 12 ms
+sequential was 37 ms faster
+i: 4, Number of elements: 160000
+Parallel sorting took 43 ms
+Sequential sorting took 19 ms
+sequential was 24 ms faster
+i: 5, Number of elements: 250000
+Parallel sorting took 56 ms
+Sequential sorting took 30 ms
+sequential was 26 ms faster
+i: 6, Number of elements: 360000
+Parallel sorting took 75 ms
+Sequential sorting took 58 ms
+sequential was 17 ms faster
+i: 7, Number of elements: 490000
+Parallel sorting took 113 ms
+Sequential sorting took 90 ms
+sequential was 23 ms faster
+i: 8, Number of elements: 640000
+Parallel sorting took 149 ms
+Sequential sorting took 129 ms
+sequential was 20 ms faster
+i: 9, Number of elements: 810000
+Parallel sorting took 174 ms
+Sequential sorting took 168 ms
+sequential was 6 ms faster
+i: 10, Number of elements: 1000000
+Parallel sorting took 231 ms
+Sequential sorting took 209 ms
+sequential was 22 ms faster
+i: 11, Number of elements: 1210000
+Parallel sorting took 268 ms
+Sequential sorting took 268 ms
+parallel was 0 ms faster
+i: 12, Number of elements: 1440000
+Parallel sorting took 332 ms
+Sequential sorting took 336 ms
+parallel was 4 ms faster
+i: 13, Number of elements: 1690000
+Parallel sorting took 381 ms
+Sequential sorting took 388 ms
+parallel was 7 ms faster
+i: 14, Number of elements: 1960000
+Parallel sorting took 426 ms
+Sequential sorting took 444 ms
+parallel was 18 ms faster
+i: 15, Number of elements: 2250000
+Parallel sorting took 582 ms
+Sequential sorting took 448 ms
+sequential was 134 ms faster
+i: 16, Number of elements: 2560000
+Parallel sorting took 636 ms
+Sequential sorting took 494 ms
+sequential was 142 ms faster
+i: 17, Number of elements: 2890000
+Parallel sorting took 734 ms
+Sequential sorting took 557 ms
+sequential was 177 ms faster
+i: 18, Number of elements: 3240000
+Parallel sorting took 768 ms
+Sequential sorting took 635 ms
+sequential was 133 ms faster
+i: 19, Number of elements: 3610000
+Parallel sorting took 903 ms
+Sequential sorting took 760 ms
+sequential was 143 ms faster
+i: 20, Number of elements: 4000000
+Parallel sorting took 1009 ms
+Sequential sorting took 815 ms
+sequential was 194 ms faster
+i: 21, Number of elements: 4410000
+Parallel sorting took 1097 ms
+Sequential sorting took 878 ms
+sequential was 219 ms faster
+i: 22, Number of elements: 4840000
+Parallel sorting took 1176 ms
+Sequential sorting took 957 ms
+sequential was 219 ms faster
+i: 23, Number of elements: 5290000
+Parallel sorting took 1359 ms
+Sequential sorting took 1104 ms
+sequential was 255 ms faster
+i: 24, Number of elements: 5760000
+Parallel sorting took 1371 ms
+Sequential sorting took 1184 ms
+sequential was 187 ms faster
+i: 25, Number of elements: 6250000
+Parallel sorting took 1439 ms
+Sequential sorting took 1504 ms
+parallel was 65 ms faster
+i: 26, Number of elements: 6760000
+Parallel sorting took 1643 ms
+Sequential sorting took 1407 ms
+sequential was 236 ms faster
+i: 27, Number of elements: 7290000
+Parallel sorting took 1684 ms
+Sequential sorting took 1752 ms
+parallel was 68 ms faster
+i: 28, Number of elements: 7840000
+Parallel sorting took 1695 ms
+Sequential sorting took 1727 ms
+parallel was 32 ms faster
+i: 29, Number of elements: 8410000
+Parallel sorting took 2005 ms
+Sequential sorting took 1978 ms
+sequential was 27 ms faster
+i: 30, Number of elements: 9000000
+Parallel sorting took 2097 ms
+Sequential sorting took 2163 ms
+parallel was 66 ms faster
+i: 31, Number of elements: 9610000
+Parallel sorting took 2126 ms
+Sequential sorting took 2234 ms
+parallel was 108 ms faster
+i: 32, Number of elements: 10240000
+Parallel sorting took 2437 ms
+Sequential sorting took 2481 ms
+parallel was 44 ms faster
+i: 33, Number of elements: 10890000
+Parallel sorting took 2494 ms
+Sequential sorting took 2673 ms
+parallel was 179 ms faster
+i: 34, Number of elements: 11560000
+Parallel sorting took 2740 ms
+Sequential sorting took 2819 ms
+parallel was 79 ms faster
+i: 35, Number of elements: 12250000
+Parallel sorting took 2846 ms
+Sequential sorting took 3224 ms
+parallel was 378 ms faster
+i: 36, Number of elements: 12960000
+Parallel sorting took 2935 ms
+Sequential sorting took 3055 ms
+parallel was 120 ms faster
+i: 37, Number of elements: 13690000
+Parallel sorting took 3122 ms
+Sequential sorting took 3381 ms
+parallel was 259 ms faster
+i: 38, Number of elements: 14440000
+Parallel sorting took 3382 ms
+Sequential sorting took 3530 ms
+parallel was 148 ms faster
+i: 39, Number of elements: 15210000
+Parallel sorting took 3365 ms
+Sequential sorting took 3716 ms
+parallel was 351 ms faster
+i: 40, Number of elements: 16000000
+Parallel sorting took 3593 ms
+Sequential sorting took 4131 ms
+parallel was 538 ms faster
+i: 41, Number of elements: 16810000
+Parallel sorting took 3727 ms
+Sequential sorting took 4701 ms
+parallel was 974 ms faster
+i: 42, Number of elements: 17640000
+Parallel sorting took 3848 ms
+Sequential sorting took 4383 ms
+parallel was 535 ms faster
+i: 43, Number of elements: 18490000
+Parallel sorting took 4181 ms
+Sequential sorting took 4945 ms
+parallel was 764 ms faster
+i: 44, Number of elements: 19360000
+Parallel sorting took 4222 ms
+Sequential sorting took 4664 ms
+parallel was 442 ms faster
+i: 45, Number of elements: 20250000
+Parallel sorting took 4780 ms
+Sequential sorting took 5263 ms
+parallel was 483 ms faster
+i: 46, Number of elements: 21160000
+Parallel sorting took 4807 ms
+Sequential sorting took 5410 ms
+parallel was 603 ms faster
+i: 47, Number of elements: 22090000
+Parallel sorting took 4938 ms
+Sequential sorting took 5757 ms
+parallel was 819 ms faster
+i: 48, Number of elements: 23040000
+Parallel sorting took 5320 ms
+Sequential sorting took 5943 ms
+parallel was 623 ms faster
+i: 49, Number of elements: 24010000
+Parallel sorting took 5757 ms
+Sequential sorting took 6183 ms
+parallel was 426 ms faster
+i: 50, Number of elements: 25000000
+Parallel sorting took 5777 ms
+Sequential sorting took 6348 ms
+parallel was 571 ms faster
+i: 51, Number of elements: 26010000
+Parallel sorting took 5773 ms
+Sequential sorting took 6763 ms
+parallel was 990 ms faster
+i: 52, Number of elements: 27040000
+Parallel sorting took 6231 ms
+Sequential sorting took 6961 ms
+parallel was 730 ms faster
+i: 53, Number of elements: 28090000
+Parallel sorting took 6254 ms
+Sequential sorting took 7258 ms
+parallel was 1004 ms faster
+i: 54, Number of elements: 29160000
+Parallel sorting took 6552 ms
+Sequential sorting took 7637 ms
+parallel was 1085 ms faster
+i: 55, Number of elements: 30250000
+Parallel sorting took 6799 ms
+Sequential sorting took 7596 ms
+parallel was 797 ms faster
+i: 56, Number of elements: 31360000
+Parallel sorting took 6734 ms
+Sequential sorting took 8778 ms
+parallel was 2044 ms faster
+i: 57, Number of elements: 32490000
+Parallel sorting took 7082 ms
+Sequential sorting took 8472 ms
+parallel was 1390 ms faster
+i: 58, Number of elements: 33640000
+Parallel sorting took 7445 ms
+Sequential sorting took 8530 ms
+parallel was 1085 ms faster
+i: 59, Number of elements: 34810000
+Parallel sorting took 8449 ms
+Sequential sorting took 9273 ms
+parallel was 824 ms faster
+i: 60, Number of elements: 36000000
+Parallel sorting took 9084 ms
+Sequential sorting took 9778 ms
+parallel was 694 ms faster
+i: 61, Number of elements: 37210000
+Parallel sorting took 8697 ms
+Sequential sorting took 10278 ms
+parallel was 1581 ms faster
+i: 62, Number of elements: 38440000
+Parallel sorting took 8798 ms
+Sequential sorting took 10817 ms
+parallel was 2019 ms faster
+i: 63, Number of elements: 39690000
+Parallel sorting took 9222 ms
+Sequential sorting took 11473 ms
+parallel was 2251 ms faster
+i: 64, Number of elements: 40960000
+Parallel sorting took 9658 ms
+Sequential sorting took 11705 ms
+parallel was 2047 ms faster
+i: 65, Number of elements: 42250000
+Parallel sorting took 10936 ms
+Sequential sorting took 12026 ms
+parallel was 1090 ms faster
+i: 66, Number of elements: 43560000
+Parallel sorting took 10164 ms
+Sequential sorting took 11885 ms
+parallel was 1721 ms faster
+i: 67, Number of elements: 44890000
+Parallel sorting took 10816 ms
+Sequential sorting took 12430 ms
+parallel was 1614 ms faster
+i: 68, Number of elements: 46240000
+Parallel sorting took 11900 ms
+Sequential sorting took 12613 ms
+parallel was 713 ms faster
+i: 69, Number of elements: 47610000
+Parallel sorting took 12078 ms
+Sequential sorting took 12986 ms
+parallel was 908 ms faster
+i: 70, Number of elements: 49000000
+Parallel sorting took 12232 ms
+Sequential sorting took 13334 ms
+parallel was 1102 ms faster
+i: 71, Number of elements: 50410000
+Parallel sorting took 12566 ms
+Sequential sorting took 13926 ms
+parallel was 1360 ms faster
+i: 72, Number of elements: 51840000
+Parallel sorting took 11890 ms
+Sequential sorting took 14787 ms
+parallel was 2897 ms faster
+i: 73, Number of elements: 53290000
+Parallel sorting took 13524 ms
+Sequential sorting took 14734 ms
+parallel was 1210 ms faster
+i: 74, Number of elements: 54760000
+Parallel sorting took 12509 ms
+Sequential sorting took 16026 ms
+parallel was 3517 ms faster
+i: 75, Number of elements: 56250000
+Parallel sorting took 12972 ms
+Sequential sorting took 16053 ms
+parallel was 3081 ms faster
+i: 76, Number of elements: 57760000
+Parallel sorting took 12848 ms
+Sequential sorting took 16734 ms
+parallel was 3886 ms faster
+i: 77, Number of elements: 59290000
+Parallel sorting took 13450 ms
+Sequential sorting took 17021 ms
+parallel was 3571 ms faster
+i: 78, Number of elements: 60840000
+Parallel sorting took 14293 ms
+Sequential sorting took 18518 ms
+parallel was 4225 ms faster
+i: 79, Number of elements: 62410000
+Parallel sorting took 14599 ms
+Sequential sorting took 18158 ms
+parallel was 3559 ms faster
+i: 80, Number of elements: 64000000
+Parallel sorting took 14829 ms
+Sequential sorting took 18652 ms
+parallel was 3823 ms faster
+i: 81, Number of elements: 65610000
+Parallel sorting took 14928 ms
+Sequential sorting took 21820 ms
+parallel was 6892 ms faster
+i: 82, Number of elements: 67240000
+Parallel sorting took 15113 ms
+Sequential sorting took 19337 ms
+parallel was 4224 ms faster
+i: 83, Number of elements: 68890000
+Parallel sorting took 15437 ms
+Sequential sorting took 19239 ms
+parallel was 3802 ms faster
+i: 84, Number of elements: 70560000
+Parallel sorting took 16329 ms
+Sequential sorting took 20399 ms
+parallel was 4070 ms faster
+i: 85, Number of elements: 72250000
+Parallel sorting took 18286 ms
+Sequential sorting took 22130 ms
+parallel was 3844 ms faster
+i: 86, Number of elements: 73960000
+Parallel sorting took 16929 ms
+Sequential sorting took 21016 ms
+parallel was 4087 ms faster
+i: 87, Number of elements: 75690000
+Parallel sorting took 17443 ms
+Sequential sorting took 21618 ms
+parallel was 4175 ms faster
+i: 88, Number of elements: 77440000
+Parallel sorting took 18096 ms
+Sequential sorting took 22489 ms
+parallel was 4393 ms faster
+i: 89, Number of elements: 79210000
+Parallel sorting took 18316 ms
+Sequential sorting took 23729 ms
+parallel was 5413 ms faster
+i: 90, Number of elements: 81000000
+Parallel sorting took 18727 ms
+Sequential sorting took 23999 ms
+parallel was 5272 ms faster
+i: 91, Number of elements: 82810000
+Parallel sorting took 18658 ms
+Sequential sorting took 23849 ms
+parallel was 5191 ms faster
+i: 92, Number of elements: 84640000
+Parallel sorting took 19807 ms
+Sequential sorting took 25252 ms
+parallel was 5445 ms faster
+i: 93, Number of elements: 86490000
+Parallel sorting took 19831 ms
+Sequential sorting took 25363 ms
+parallel was 5532 ms faster
+i: 94, Number of elements: 88360000
+Parallel sorting took 20573 ms
+Sequential sorting took 26852 ms
+parallel was 6279 ms faster
+i: 95, Number of elements: 90250000
+Parallel sorting took 21596 ms
+Sequential sorting took 30368 ms
+parallel was 8772 ms faster
+i: 96, Number of elements: 92160000
+Parallel sorting took 21668 ms
+Sequential sorting took 31265 ms
+parallel was 9597 ms faster
+i: 97, Number of elements: 94090000
+Parallel sorting took 23356 ms
+Sequential sorting took 29504 ms
+parallel was 6148 ms faster
+i: 98, Number of elements: 96040000
+Parallel sorting took 27872 ms
+Sequential sorting took 33718 ms
+parallel was 5846 ms faster
+i: 99, Number of elements: 98010000
+Parallel sorting took 27541 ms
+Sequential sorting took 34278 ms
+parallel was 6737 ms faster

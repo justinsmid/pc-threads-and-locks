@@ -1,0 +1,599 @@
+1 thread(s), 100000 elements:
+Parallel sorting took 57 ms
+Sequential sorting took 33 ms
+sequential was 24 ms faster
+
+2 thread(s), 100000 elements:
+Parallel sorting took 32 ms
+Sequential sorting took 21 ms
+sequential was 11 ms faster
+
+3 thread(s), 100000 elements:
+Parallel sorting took 16 ms
+Sequential sorting took 13 ms
+sequential was 3 ms faster
+
+4 thread(s), 100000 elements:
+Parallel sorting took 21 ms
+Sequential sorting took 13 ms
+sequential was 8 ms faster
+
+5 thread(s), 100000 elements:
+Parallel sorting took 26 ms
+Sequential sorting took 14 ms
+sequential was 12 ms faster
+
+6 thread(s), 100000 elements:
+Parallel sorting took 23 ms
+Sequential sorting took 13 ms
+sequential was 10 ms faster
+
+7 thread(s), 100000 elements:
+Parallel sorting took 24 ms
+Sequential sorting took 12 ms
+sequential was 12 ms faster
+
+8 thread(s), 100000 elements:
+Parallel sorting took 24 ms
+Sequential sorting took 13 ms
+sequential was 11 ms faster
+
+9 thread(s), 100000 elements:
+Parallel sorting took 25 ms
+Sequential sorting took 12 ms
+sequential was 13 ms faster
+
+10 thread(s), 100000 elements:
+Parallel sorting took 21 ms
+Sequential sorting took 14 ms
+sequential was 7 ms faster
+
+11 thread(s), 100000 elements:
+Parallel sorting took 28 ms
+Sequential sorting took 11 ms
+sequential was 17 ms faster
+
+12 thread(s), 100000 elements:
+Parallel sorting took 24 ms
+Sequential sorting took 13 ms
+sequential was 11 ms faster
+
+13 thread(s), 100000 elements:
+Parallel sorting took 22 ms
+Sequential sorting took 13 ms
+sequential was 9 ms faster
+
+14 thread(s), 100000 elements:
+Parallel sorting took 22 ms
+Sequential sorting took 12 ms
+sequential was 10 ms faster
+
+15 thread(s), 100000 elements:
+Parallel sorting took 21 ms
+Sequential sorting took 12 ms
+sequential was 9 ms faster
+
+16 thread(s), 100000 elements:
+Parallel sorting took 29 ms
+Sequential sorting took 11 ms
+sequential was 18 ms faster
+
+17 thread(s), 100000 elements:
+Parallel sorting took 22 ms
+Sequential sorting took 12 ms
+sequential was 10 ms faster
+
+18 thread(s), 100000 elements:
+Parallel sorting took 24 ms
+Sequential sorting took 13 ms
+sequential was 11 ms faster
+
+19 thread(s), 100000 elements:
+Parallel sorting took 22 ms
+Sequential sorting took 12 ms
+sequential was 10 ms faster
+
+20 thread(s), 100000 elements:
+Parallel sorting took 24 ms
+Sequential sorting took 13 ms
+sequential was 11 ms faster
+
+21 thread(s), 100000 elements:
+Parallel sorting took 23 ms
+Sequential sorting took 12 ms
+sequential was 11 ms faster
+
+22 thread(s), 100000 elements:
+Parallel sorting took 25 ms
+Sequential sorting took 11 ms
+sequential was 14 ms faster
+
+23 thread(s), 100000 elements:
+Parallel sorting took 22 ms
+Sequential sorting took 12 ms
+sequential was 10 ms faster
+
+24 thread(s), 100000 elements:
+Parallel sorting took 22 ms
+Sequential sorting took 11 ms
+sequential was 11 ms faster
+
+1 thread(s), 1000000 elements:
+Parallel sorting took 219 ms
+Sequential sorting took 231 ms
+parallel was 12 ms faster
+
+2 thread(s), 1000000 elements:
+Parallel sorting took 242 ms
+Sequential sorting took 204 ms
+sequential was 38 ms faster
+
+3 thread(s), 1000000 elements:
+Parallel sorting took 185 ms
+Sequential sorting took 214 ms
+parallel was 29 ms faster
+
+4 thread(s), 1000000 elements:
+Parallel sorting took 251 ms
+Sequential sorting took 187 ms
+sequential was 64 ms faster
+
+5 thread(s), 1000000 elements:
+Parallel sorting took 249 ms
+Sequential sorting took 175 ms
+sequential was 74 ms faster
+
+6 thread(s), 1000000 elements:
+Parallel sorting took 224 ms
+Sequential sorting took 225 ms
+parallel was 1 ms faster
+
+7 thread(s), 1000000 elements:
+Parallel sorting took 225 ms
+Sequential sorting took 181 ms
+sequential was 44 ms faster
+
+8 thread(s), 1000000 elements:
+Parallel sorting took 270 ms
+Sequential sorting took 179 ms
+sequential was 91 ms faster
+
+9 thread(s), 1000000 elements:
+Parallel sorting took 221 ms
+Sequential sorting took 275 ms
+parallel was 54 ms faster
+
+10 thread(s), 1000000 elements:
+Parallel sorting took 283 ms
+Sequential sorting took 189 ms
+sequential was 94 ms faster
+
+11 thread(s), 1000000 elements:
+Parallel sorting took 270 ms
+Sequential sorting took 189 ms
+sequential was 81 ms faster
+
+12 thread(s), 1000000 elements:
+Parallel sorting took 218 ms
+Sequential sorting took 189 ms
+sequential was 29 ms faster
+
+13 thread(s), 1000000 elements:
+Parallel sorting took 286 ms
+Sequential sorting took 184 ms
+sequential was 102 ms faster
+
+14 thread(s), 1000000 elements:
+Parallel sorting took 218 ms
+Sequential sorting took 180 ms
+sequential was 38 ms faster
+
+15 thread(s), 1000000 elements:
+Parallel sorting took 267 ms
+Sequential sorting took 184 ms
+sequential was 83 ms faster
+
+16 thread(s), 1000000 elements:
+Parallel sorting took 220 ms
+Sequential sorting took 179 ms
+sequential was 41 ms faster
+
+17 thread(s), 1000000 elements:
+Parallel sorting took 220 ms
+Sequential sorting took 282 ms
+parallel was 62 ms faster
+
+18 thread(s), 1000000 elements:
+Parallel sorting took 223 ms
+Sequential sorting took 189 ms
+sequential was 34 ms faster
+
+19 thread(s), 1000000 elements:
+Parallel sorting took 226 ms
+Sequential sorting took 188 ms
+sequential was 38 ms faster
+
+20 thread(s), 1000000 elements:
+Parallel sorting took 290 ms
+Sequential sorting took 185 ms
+sequential was 105 ms faster
+
+21 thread(s), 1000000 elements:
+Parallel sorting took 214 ms
+Sequential sorting took 189 ms
+sequential was 25 ms faster
+
+22 thread(s), 1000000 elements:
+Parallel sorting took 216 ms
+Sequential sorting took 287 ms
+parallel was 71 ms faster
+
+23 thread(s), 1000000 elements:
+Parallel sorting took 202 ms
+Sequential sorting took 187 ms
+sequential was 15 ms faster
+
+24 thread(s), 1000000 elements:
+Parallel sorting took 230 ms
+Sequential sorting took 186 ms
+sequential was 44 ms faster
+
+1 thread(s), 5000000 elements:
+Parallel sorting took 1343 ms
+Sequential sorting took 1246 ms
+sequential was 97 ms faster
+
+2 thread(s), 5000000 elements:
+Parallel sorting took 1043 ms
+Sequential sorting took 1104 ms
+parallel was 61 ms faster
+
+3 thread(s), 5000000 elements:
+Parallel sorting took 1060 ms
+Sequential sorting took 1211 ms
+parallel was 151 ms faster
+
+4 thread(s), 5000000 elements:
+Parallel sorting took 1157 ms
+Sequential sorting took 1180 ms
+parallel was 23 ms faster
+
+5 thread(s), 5000000 elements:
+Parallel sorting took 1184 ms
+Sequential sorting took 1214 ms
+parallel was 30 ms faster
+
+6 thread(s), 5000000 elements:
+Parallel sorting took 1173 ms
+Sequential sorting took 1220 ms
+parallel was 47 ms faster
+
+7 thread(s), 5000000 elements:
+Parallel sorting took 1122 ms
+Sequential sorting took 1167 ms
+parallel was 45 ms faster
+
+8 thread(s), 5000000 elements:
+Parallel sorting took 1308 ms
+Sequential sorting took 1069 ms
+sequential was 239 ms faster
+
+9 thread(s), 5000000 elements:
+Parallel sorting took 1194 ms
+Sequential sorting took 1199 ms
+parallel was 5 ms faster
+
+10 thread(s), 5000000 elements:
+Parallel sorting took 1142 ms
+Sequential sorting took 1230 ms
+parallel was 88 ms faster
+
+11 thread(s), 5000000 elements:
+Parallel sorting took 1228 ms
+Sequential sorting took 1253 ms
+parallel was 25 ms faster
+
+12 thread(s), 5000000 elements:
+Parallel sorting took 1130 ms
+Sequential sorting took 1188 ms
+parallel was 58 ms faster
+
+13 thread(s), 5000000 elements:
+Parallel sorting took 1318 ms
+Sequential sorting took 1100 ms
+sequential was 218 ms faster
+
+14 thread(s), 5000000 elements:
+Parallel sorting took 1199 ms
+Sequential sorting took 1152 ms
+sequential was 47 ms faster
+
+15 thread(s), 5000000 elements:
+Parallel sorting took 1217 ms
+Sequential sorting took 1067 ms
+sequential was 150 ms faster
+
+16 thread(s), 5000000 elements:
+Parallel sorting took 1199 ms
+Sequential sorting took 1054 ms
+sequential was 145 ms faster
+
+17 thread(s), 5000000 elements:
+Parallel sorting took 1118 ms
+Sequential sorting took 1052 ms
+sequential was 66 ms faster
+
+18 thread(s), 5000000 elements:
+Parallel sorting took 1158 ms
+Sequential sorting took 1260 ms
+parallel was 102 ms faster
+
+19 thread(s), 5000000 elements:
+Parallel sorting took 1121 ms
+Sequential sorting took 1296 ms
+parallel was 175 ms faster
+
+20 thread(s), 5000000 elements:
+Parallel sorting took 1195 ms
+Sequential sorting took 1057 ms
+sequential was 138 ms faster
+
+21 thread(s), 5000000 elements:
+Parallel sorting took 1158 ms
+Sequential sorting took 1054 ms
+sequential was 104 ms faster
+
+22 thread(s), 5000000 elements:
+Parallel sorting took 1129 ms
+Sequential sorting took 1231 ms
+parallel was 102 ms faster
+
+23 thread(s), 5000000 elements:
+Parallel sorting took 1173 ms
+Sequential sorting took 1143 ms
+sequential was 30 ms faster
+
+24 thread(s), 5000000 elements:
+Parallel sorting took 1146 ms
+Sequential sorting took 1135 ms
+sequential was 11 ms faster
+
+1 thread(s), 10000000 elements:
+Parallel sorting took 2798 ms
+Sequential sorting took 2574 ms
+sequential was 224 ms faster
+
+2 thread(s), 10000000 elements:
+Parallel sorting took 2177 ms
+Sequential sorting took 2659 ms
+parallel was 482 ms faster
+
+3 thread(s), 10000000 elements:
+Parallel sorting took 2061 ms
+Sequential sorting took 2504 ms
+parallel was 443 ms faster
+
+4 thread(s), 10000000 elements:
+Parallel sorting took 2393 ms
+Sequential sorting took 2520 ms
+parallel was 127 ms faster
+
+5 thread(s), 10000000 elements:
+Parallel sorting took 2326 ms
+Sequential sorting took 2447 ms
+parallel was 121 ms faster
+
+6 thread(s), 10000000 elements:
+Parallel sorting took 2560 ms
+Sequential sorting took 2555 ms
+sequential was 5 ms faster
+
+7 thread(s), 10000000 elements:
+Parallel sorting took 2597 ms
+Sequential sorting took 2464 ms
+sequential was 133 ms faster
+
+8 thread(s), 10000000 elements:
+Parallel sorting took 2286 ms
+Sequential sorting took 2663 ms
+parallel was 377 ms faster
+
+9 thread(s), 10000000 elements:
+Parallel sorting took 2274 ms
+Sequential sorting took 2596 ms
+parallel was 322 ms faster
+
+10 thread(s), 10000000 elements:
+Parallel sorting took 2514 ms
+Sequential sorting took 2504 ms
+sequential was 10 ms faster
+
+11 thread(s), 10000000 elements:
+Parallel sorting took 2434 ms
+Sequential sorting took 2294 ms
+sequential was 140 ms faster
+
+12 thread(s), 10000000 elements:
+Parallel sorting took 2325 ms
+Sequential sorting took 2428 ms
+parallel was 103 ms faster
+
+13 thread(s), 10000000 elements:
+Parallel sorting took 2328 ms
+Sequential sorting took 2575 ms
+parallel was 247 ms faster
+
+14 thread(s), 10000000 elements:
+Parallel sorting took 2434 ms
+Sequential sorting took 2497 ms
+parallel was 63 ms faster
+
+15 thread(s), 10000000 elements:
+Parallel sorting took 2430 ms
+Sequential sorting took 2529 ms
+parallel was 99 ms faster
+
+16 thread(s), 10000000 elements:
+Parallel sorting took 2487 ms
+Sequential sorting took 2360 ms
+sequential was 127 ms faster
+
+17 thread(s), 10000000 elements:
+Parallel sorting took 2149 ms
+Sequential sorting took 2545 ms
+parallel was 396 ms faster
+
+18 thread(s), 10000000 elements:
+Parallel sorting took 2398 ms
+Sequential sorting took 2512 ms
+parallel was 114 ms faster
+
+19 thread(s), 10000000 elements:
+Parallel sorting took 2382 ms
+Sequential sorting took 2527 ms
+parallel was 145 ms faster
+
+20 thread(s), 10000000 elements:
+Parallel sorting took 2411 ms
+Sequential sorting took 2513 ms
+parallel was 102 ms faster
+
+21 thread(s), 10000000 elements:
+Parallel sorting took 2388 ms
+Sequential sorting took 2429 ms
+parallel was 41 ms faster
+
+22 thread(s), 10000000 elements:
+Parallel sorting took 2220 ms
+Sequential sorting took 2613 ms
+parallel was 393 ms faster
+
+23 thread(s), 10000000 elements:
+Parallel sorting took 2160 ms
+Sequential sorting took 2417 ms
+parallel was 257 ms faster
+
+24 thread(s), 10000000 elements:
+Parallel sorting took 2120 ms
+Sequential sorting took 2484 ms
+parallel was 364 ms faster
+
+1 thread(s), 25000000 elements:
+Parallel sorting took 7249 ms
+Sequential sorting took 6360 ms
+sequential was 889 ms faster
+
+2 thread(s), 25000000 elements:
+Parallel sorting took 6705 ms
+Sequential sorting took 6748 ms
+parallel was 43 ms faster
+
+3 thread(s), 25000000 elements:
+Parallel sorting took 5257 ms
+Sequential sorting took 6699 ms
+parallel was 1442 ms faster
+
+4 thread(s), 25000000 elements:
+Parallel sorting took 5735 ms
+Sequential sorting took 6539 ms
+parallel was 804 ms faster
+
+5 thread(s), 25000000 elements:
+Parallel sorting took 5986 ms
+Sequential sorting took 6618 ms
+parallel was 632 ms faster
+
+6 thread(s), 25000000 elements:
+Parallel sorting took 6094 ms
+Sequential sorting took 6558 ms
+parallel was 464 ms faster
+
+7 thread(s), 25000000 elements:
+Parallel sorting took 6384 ms
+Sequential sorting took 6461 ms
+parallel was 77 ms faster
+
+8 thread(s), 25000000 elements:
+Parallel sorting took 5725 ms
+Sequential sorting took 6795 ms
+parallel was 1070 ms faster
+
+9 thread(s), 25000000 elements:
+Parallel sorting took 6097 ms
+Sequential sorting took 7161 ms
+parallel was 1064 ms faster
+
+10 thread(s), 25000000 elements:
+Parallel sorting took 5777 ms
+Sequential sorting took 6299 ms
+parallel was 522 ms faster
+
+11 thread(s), 25000000 elements:
+Parallel sorting took 5722 ms
+Sequential sorting took 6836 ms
+parallel was 1114 ms faster
+
+12 thread(s), 25000000 elements:
+Parallel sorting took 5725 ms
+Sequential sorting took 6862 ms
+parallel was 1137 ms faster
+
+13 thread(s), 25000000 elements:
+Parallel sorting took 5546 ms
+Sequential sorting took 6723 ms
+parallel was 1177 ms faster
+
+14 thread(s), 25000000 elements:
+Parallel sorting took 5714 ms
+Sequential sorting took 6878 ms
+parallel was 1164 ms faster
+
+15 thread(s), 25000000 elements:
+Parallel sorting took 5708 ms
+Sequential sorting took 6709 ms
+parallel was 1001 ms faster
+
+16 thread(s), 25000000 elements:
+Parallel sorting took 5727 ms
+Sequential sorting took 6688 ms
+parallel was 961 ms faster
+
+17 thread(s), 25000000 elements:
+Parallel sorting took 5643 ms
+Sequential sorting took 6623 ms
+parallel was 980 ms faster
+
+18 thread(s), 25000000 elements:
+Parallel sorting took 5515 ms
+Sequential sorting took 6841 ms
+parallel was 1326 ms faster
+
+19 thread(s), 25000000 elements:
+Parallel sorting took 5787 ms
+Sequential sorting took 6669 ms
+parallel was 882 ms faster
+
+20 thread(s), 25000000 elements:
+Parallel sorting took 5577 ms
+Sequential sorting took 6818 ms
+parallel was 1241 ms faster
+
+21 thread(s), 25000000 elements:
+Parallel sorting took 5580 ms
+Sequential sorting took 6603 ms
+parallel was 1023 ms faster
+
+22 thread(s), 25000000 elements:
+Parallel sorting took 5681 ms
+Sequential sorting took 6429 ms
+parallel was 748 ms faster
+
+23 thread(s), 25000000 elements:
+Parallel sorting took 5620 ms
+Sequential sorting took 6449 ms
+parallel was 829 ms faster
+
+24 thread(s), 25000000 elements:
+Parallel sorting took 5877 ms
+Sequential sorting took 6441 ms
+parallel was 564 ms faster
