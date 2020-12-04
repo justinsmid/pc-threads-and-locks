@@ -27,6 +27,16 @@ public class bucketSortTest {
         assertTrue(isSorted(parallelSortedList));
     }
 
+    /**
+     * Prints the time it takes to sort an array of 2million elements in parallel and sequentially
+     */
+    @Test
+    public void printTime() {
+        final int ARRAY_SIZE = 2_000_000;
+
+        printTimeTaken(maxThreads, ARRAY_SIZE);
+    }
+
     private boolean isSorted(List<Long> list) {
         for (int i = 1; i < list.size(); i++) {
             Long a = list.get(i - 1);
@@ -61,26 +71,14 @@ public class bucketSortTest {
         System.out.printf("%s was %d ms faster\n", faster, difference);
     }
 
-    /**
-     * Prints the time it takes to sort an array of 2million elements in parallel and sequentially
-     */
-    @Test
-    public void printTime() {
-        final int ARRAY_SIZE = 2_000_000;
-
-        printTimeTaken(maxThreads, ARRAY_SIZE);
-    }
-
     //////////////////////////////////////////  DATA COLLECTION  ///////////////////////////////////////////////////////
-    ///  Underneath follow the tests we ran to gather the data shown in the graphs.                                    /
-    ///  Running them as-is on a sub-par computer may result in lag or a crash due to large numbers and long runtime   /
-    ///  We recommend adjusting their values accordingly beforehand if you wish to run them yourself.                  /
+    ///  Underneath follow the tests we ran to gather the data shown in the graphs.                                  ///
+    ///  Running them as-is on a sub-par computer may result in lag or a crash due to large numbers and long runtime ///
+    ///  We recommend adjusting their values accordingly beforehand if you wish to run them yourself.                ///
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    /**
-     * Prints the times it takes for the algorithms to run both in parallel and sequentially with varying numbers to threads used.
-     */
+
 //    @Test
-//    public void nThreadsTiming() {
+//    public void nThreadsBenchmark() {
 //        int[] nElementsArray = new int[]{ 100_000, 1_000_000, 5_000_000, 10_000_000, 25_000_000 };
 //
 //        for (int nElements : nElementsArray) {
@@ -93,13 +91,13 @@ public class bucketSortTest {
 //    }
 
 //    @Test
-//    public void methodTest() {
+//    public void nElementsBenchmark() {
 //        int nElements = 10_000;
 //
 //        for (int i = 0; i < 100; i++) {
-//            int test = (i * i) * nElements;
-//            System.out.println("i: " + i + " Test: " + test);
-//            printTimeTaken(maxThreads, test);
+//            int currentNElements = (i * i) * nElements;
+//            System.out.println("i: " + i + " # of elements: " + currentNElements);
+//            printTimeTaken(maxThreads, currentNElements);
 //        }
 //    }
 }
